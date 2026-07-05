@@ -1,5 +1,10 @@
 # 📱 Week 1 – Mobile Store (Web Technologies Lab)
 
+#### Name : Vardhan Vanga
+#### R.No: 24881A1261
+#### sec : IT-A
+#### Course : Web Technologies Laboratory 
+
 ## Overview
 
 This project is the **Week 1** lab assignment for the **Web Technologies** course. It is a **static commercial web page** that showcases a mobile store and demonstrates the use of basic HTML elements.
