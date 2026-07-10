@@ -23,3 +23,12 @@ address for communication. The form provides a list to choose job location, an a
 describe about the applicant, an option to upload CV and a button to clear the controls
 and submit end user form.
 
+### Week-4
+4. Design a HTML form of a bank to accept a form from a customer to enter name,
+   occupation, loan amount, rate of interest and tenure in years.
+   After submission of the form calculate 2 and display the EMI information
+
+### Week-5 
+5. Use the Job Registration form and validate the fields name, email and contact number
+   using appropriate regular expressions. If the form is valid user gets Registered Successfully,
+   otherwise provide appropriate error message to user
