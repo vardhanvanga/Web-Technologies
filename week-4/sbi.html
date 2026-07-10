@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            p{
+                font-size:xx-large;
+
+            }
+            h3{
+                text-align: center;
+                color:red;
+                padding: 10px;
+                background-color:yellow;
+                margin:2px;
+            }
+            input[type=text]{
+                padding: 15px;
+                width: 100%;
+                background-color: lightblue;
+                color: black;
+                margin: 10px;
+                border: 2px;
+            }
+            input[type=number]{
+                padding: 15px;
+                width: 100%;
+                background-color: purple;
+                color: white;
+                margin: 10px;
+                border: 2px;
+            }
+            input[type=button]{
+                border:2px ;
+                background-color:green;  
+                padding: 15px;  
+                margin: 10px;  
+                font-size: 20px;  
+                
+            }
+        </style>
+    </head>
+    <body>
+        <h3>SBI EMI CALCULATOR</h3>
+        <form>
+            Name<br> <input type="text" class="p1" placeholder="Enter your name"> 
+            Occupation <br> <input type="text" class="p1" placeholder="Enter the occupation">
+            Loan Amount <br> <input type="number" id="A" placeholder="Enter your loan Amount">
+            Intrest Rate <br> <input type="number" id="I" placeholder="Enter intrest rate">
+            Tenure in years <br> <input type="number" id="Y" placeholder="enter tenure in years">
+            <input type="button" value="calculate EMI" onclick ="calculate()">
+            
+
+        </form>
+        <p id="result"></p>
+        <script>
+            function calculate()
+            {
+            var amount=document.getElementById("A").value;
+            var ir=document.getElementById("I").value; 
+            var year=document.getElementById("Y").value;
+            var roi=ir/(12*100); 
+            var months=year*12;
+            var emi=(amount*roi*Math.pow((1+roi),months))/(Math.pow(1+roi,months)-1);
+            
+            document.getElementById("result").innerHTML="<h4>Your EMI is:</h4>"+ emi.toFixed(2);
+            }
+
+        </script>
+        <p align="right" ><b>V .Vardhan</b></p>
+        <p align="right" ><b>24881A1261</b></p>
+    </body>
+</html>
