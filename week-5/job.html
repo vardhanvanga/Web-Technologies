@@ -1,0 +1,123 @@
+<html>
+    <head>
+
+    <style>
+
+
+            body{
+                text-align:center;
+            }
+
+            h2{
+                font-size: 60px;
+            }
+            /* form{
+                background-color: aliceblue;
+                margin:8px;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                margin-right: 100px;
+            }
+             */
+            input[type=text]{
+                width: 30%;;
+                padding:8px;
+                margin:8px;
+            }
+            input[type=number]{
+                width:30%;
+                padding:8px;
+                margin:8px;
+            }
+
+
+    </style>
+
+    </head>
+    <body bgcolor="lightgreen">
+
+        <h2 align="center">E-Mail Registration Form</h2>
+
+            <form>
+                <!-- <label>Username</label> <br> -->
+                <input type="text" id="n" placeholder="Username"><br>
+
+                <!-- <label>Eo-Mail</label> <br> -->
+                <input type="text" id="mi" placeholder=" Email"><br>
+
+               <!-- <label>Username</label><br> -->
+                <input type="number" id="mo" placeholder=" Number"><br><br>
+
+                <input type="submit" onclick="return validate()">
+            </form>
+    <script>
+
+        function validate(){
+
+            var un = /^[a-zA-Z]+[a-zA-Z0-9._]*$/;
+
+            var em = /^[a-zA-Z]+([\._]?\w+)*@\w+([\._]?\w +)*(\.\w{2,3})+$/;
+
+            var mn = /^[6-9][0-9]{9}$/;
+
+
+            var name = document.getElementById("n");
+            var uname = name.value;
+
+
+            var mail = document.getElementById("mi");
+            var e_mail = mail.value;
+
+
+            var mno = document.getElementById("mo");
+            var m_no = mno.value;
+
+
+
+            if(un.test(uname)){
+
+                if(em.test(e_mail)){
+
+                    if(mn.test(m_no)){
+
+                        alert("Registered successfully");
+                        return true;
+
+                    }
+                    else{
+                        return error(mno);
+                    }
+
+                }
+                else{
+                    return error(mail);
+                }
+
+            }
+            else{
+                return error(name);
+            }
+
+        }
+
+
+
+            function error(ele){
+
+                 alert("Invalid");
+
+                 ele.style.border="3px solid red";
+                 ele.value="";
+                 ele.placeholder="Invalid";
+
+                 ele.focus();
+
+                 return false;
+            }
+            </script>
+
+            <p align="center">V.Vardhan</p>
+            <p align="center">24881A1261</p>
+
+        </body>
+</html>
