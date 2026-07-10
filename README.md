@@ -1,7 +1,7 @@
 # Web-Technologies Laboratory
 #### Name : Vardhan Vanga
-#### R.No: 24881A1261
-#### sec : IT-A
+#### Roll.No: 24881A1261
+#### section : IT-A
 #### Course : Web Technologies Laboratory 
 
 ## Description 
