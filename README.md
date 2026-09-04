@@ -32,3 +32,12 @@ and submit end user form.
 5. Use the Job Registration form and validate the fields name, email and contact number
    using appropriate regular expressions. If the form is valid user gets Registered Successfully,
    otherwise provide appropriate error message to user
+
+### Week- 6 
+6. Create a XML document to describe the book information like id, name, number of
+   pages, author and prize. Using DTD and Schema validate the document.
+   
+### Week- 7 
+7. Create a XML document to describe the student information and present the document
+   in a table using XSLT.
+   
