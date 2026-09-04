@@ -7,11 +7,11 @@
         <marks>98</marks>
     </student>
     <student rollno="102">
-        <name>Raj</name>
+        <name>Ram</name>
         <marks>88</marks>
     </student>
     <student rollno="103">
-        <name>Rohan</name>
+        <name>Geetha</name>
         <marks>18</marks>
     </student>
 </class>

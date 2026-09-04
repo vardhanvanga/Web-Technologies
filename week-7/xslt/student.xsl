@@ -5,7 +5,7 @@
             <body>
                 <h2>Student Details</h2>
                 <table border="1">
-                    <tr bgcolor="#9acd32">
+                    <tr bgcolor="lightblue">
                         <th>Roll No</th>
                         <th>Name</th>
                         <th>Marks</th>
