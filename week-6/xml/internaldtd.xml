@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE bookstore [
+<!ELEMENT  bookstore (book+)>
+<!ELEMENT  book (id, name, noofpages, author , price)>
+<!ELEMENT id (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT noofpages (#PCDATA)>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT price (#PCDATA)>
+ ]>
+
+<bookstore>
+    <book>
+        <id>b101</id>
+        <name>Tom halland</name>
+        <noofpages>100</noofpages>
+        <author>Stan lee</author>
+        <price>500</price>
+    </book>    
+    <book>
+        <id>b102</id>
+        <name>Godvalley</name>
+        <noofpages>1000</noofpages>
+        <author>Oda</author>
+        <price>1500</price>
+    </book>
+    <book>
+        <id>b103</id>
+        <name>System Design</name>
+        <noofpages>422</noofpages>
+        <author>Alex yuu</author>
+        <price>5100</price>
+    </book>
+</bookstore>

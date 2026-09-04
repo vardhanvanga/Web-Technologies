@@ -1,0 +1,24 @@
+<book
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="book.xsd">
+    <book>
+        <id>b101</id>
+        <name>Spiderman Comics</name>
+        <noofpages>100</noofpages>
+        <author>Stan lee</author>
+        <price>500</price>
+    </book>    
+    <book>
+        <id>b102</id>
+        <name>Onepiece</name>
+        <noofpages>1000</noofpages>
+        <author>Eichiro Oda</author>
+        <price>1500</price>
+    </book>
+    <book>
+        <id>b103</id>
+        <name>System Design</name>
+        <noofpages>422</noofpages>
+        <author>Alex yuu</author>
+        <price>5100</price>
+    </book>
+</book>

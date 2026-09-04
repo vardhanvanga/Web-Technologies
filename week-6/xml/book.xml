@@ -1,0 +1,24 @@
+<!DOCTYPE bookstore SYSTEM "book.dtd">
+<bookstore>
+    <book>
+        <id>b101</id>
+        <name>TOm halland</name>
+        <noofpages>100</noofpages>
+        <author>Stan lee</author>
+        <price>500</price>
+    </book>    
+    <book>
+        <id>b102</id>
+        <name>Bleach</name>
+        <noofpages>1000</noofpages>
+        <author>Tite Kubo</author>
+        <price>220</price>
+    </book>
+    <book>
+        <id>b103</id>
+        <name>System Design</name>
+        <noofpages>422</noofpages>
+        <author>Alex yuu</author>
+        <price>5100</price>
+    </book>
+</bookstore>
