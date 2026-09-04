@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet version="1.0" href="student.xsl" type="text/xsl"?>
+
+<class>
+    <student rollno="101">
+        <name>Srinidhi</name>
+        <marks>98</marks>
+    </student>
+    <student rollno="102">
+        <name>Raj</name>
+        <marks>88</marks>
+    </student>
+    <student rollno="103">
+        <name>Rohan</name>
+        <marks>18</marks>
+    </student>
+</class>
