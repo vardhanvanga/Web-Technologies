@@ -3,7 +3,7 @@ import java.sql.*;
 public class week8 {
     static final String DB_URL = "jdbc:mysql://localhost:3306/training";
     static final String USER = "root";
-    static final String PASS = "Vardhan@09";
+    static final String PASS = "admin";
 
     public static void main(String args[]){
         
