@@ -41,3 +41,11 @@ and submit end user form.
 7. Create a XML document to describe the student information and present the document
    in a table using XSLT.
    
+### Week -8 (In JDBC Folder)
+8. Write a JDBC program to create an employee table in a MYSQL database with fields employee
+no, name, salary and department. Perform operations on the table like insert, retrieve,
+update and delete operations(CRUD) using Statement.
+
+And also worked on Student CRUD operations of creating a student table and inserting , updating, deleting
+operations using with Connection with JDBC driver and MYSQL using Statement Object .
+
