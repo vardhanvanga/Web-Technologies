@@ -5,7 +5,7 @@ public class week9 {
     // Database details
     static final String URL = "jdbc:mysql://localhost:3306/training";
     static final String USER = "root";
-    static final String PASSWORD ="Vardhan@09";
+    static final String PASSWORD ="admin";
 
     public static void main(String[] args) {
 
