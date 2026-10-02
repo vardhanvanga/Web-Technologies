@@ -1,13 +1,12 @@
 import java.sql.*;
-import java.util.*;
 
 public class crud {
     static final String DB_URL = "jdbc:mysql://localhost:3306/training";
     static final String USER = "root";
-    static final String PASS = "Vardhan@09";
+    static final String PASS = "admin";
 
     public static void main(String args[]){
-        Scanner sc = new Scanner(System.in);
+        
         try {
             Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
             Statement stmt = conn.createStatement();
@@ -52,6 +51,5 @@ public class crud {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-    sc.close();
     }
 }
