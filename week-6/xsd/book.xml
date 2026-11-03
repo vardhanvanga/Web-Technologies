@@ -1,4 +1,4 @@
-<book
+<books
  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="book.xsd">
     <book>
         <id>b101</id>
@@ -21,4 +21,4 @@
         <author>Alex yuu</author>
         <price>5100</price>
     </book>
-</book>
+</books>
